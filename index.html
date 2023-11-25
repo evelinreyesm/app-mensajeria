@@ -3,34 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>app</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
-        <div class="chat lateral" style="display: flex; flex-direction: row; align-items: center;"> 
-            
-            <img src="image/maria.jpg" style="width: 50px; padding: 20px; border-radius: 100%;" alt="">
-            <p style="font-weight: 6px;padding: 20px;">Evelin<br>updated 1 min ago</p> 
-            
-            <img src="image/sobre.jfif" style="width: 30px; padding: 10px;" alt="">
-            <img src="image/menu.png" style="width: 40px; padding: 10px;" alt="">
-        </div>         
-    </div>
 
-        <div class="boton">
-            <button class="butt">
-                <h1>Nuevo chat</h1>
-            </button>
+        <div class="barralateral">
+
+            <div class="perfil">
+                <div style="display: flex;padding: opx; align-items: center;">
+                    <img style="border-radius: 100%; width: 50px; margin: 8px; height: min-content;" src="image/maria.jpg" alt="">
+                    <div>
+                        <p style="font-weight: 400px; font-size: 20px; align-items: center ; margin-left: 8px;">Maria <br><span style="font-size: 10px;align-items: center; margin-left: 3px;">activo ahora</span></p>
+                        
+                    </div>
+                </div>
+                <div>
+                    <img style="width: 34px; height: min-content;" src="image/sobre.jfif" alt="">
+                    <img style="width: 39px;height: min-content;" src="image/menu.png" alt="">
+                </div>
+            </div>
+            <div class="newchat">
+                <button  style="padding: 15px 80px; background-color: rgb(189, 177, 204);">Nuevo Chat</button>
+            </div>
+            <div class="contactos">
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; ">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">juannita <br><span style="font-size: 15px;">at vero eos et accuasa</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.30.54.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Alberto<br><span style="font-size: 15px;">blanditis praesentenium</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.28.30.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Ignacio<br><span style="font-size: 15px;">officies debitis aut</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.30.34.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Cristian<br><span style="font-size: 15px;">nam libero tempore</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.28.04.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">María José<br><span style="font-size: 15px;">impede quo minus id</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.31.09.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Gonzalo<br><span style="font-size: 15px;">at vero eos el accusa</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.32.16.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Juan Pablo<br><span style="font-size: 15px;">ecessitalibus saeje</span></p>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: space-around;align-items: center; padding: 0px;">
+                    <img style="width: 60px;height: min-content;border-radius: 100%;" src="image/Screen Shot 2018-11-28 at 15.27.14.jpg" alt="">
+                    <p style="font-size: 20px; font-weight: 700px;">Magdalena<br><span style="font-size: 15px;">ut ot ygiuptacus id</span></p>
+                </div>
+                
+            </div>
         </div>
-        <div class="chat"  style="display: flex; flex-direction: column; justify-content: center;">
-            <div class="a">
-                    <img src="image/Screen Shot 2018-11-28 at 15.27.14.jpg"  alt="">
-                    
-                    <p style="padding: 30px;">marina <br> at vero,no tru</p>
+        <div class="contenido">
+            <img style="padding: 30px; width: 300px;" src="image/hand.png" alt="">
+            <div  style="align-items: center;justify-content: center;">
+                <p > <span style="font-size: 50px; font-weight: 300px;">Comienza el Networking</span><br>presiona el boton <span style="font-size: 20px; font-weight: 300px;"> "Nuevo Chat" </span>para comenzar a crear nuevas <br>redes de contacto para su empresa o emprendimiento</p> 
             </div>
-            <div class="b">
-                <p>julian </p>
-                    <img src="image/Screen Shot 2018-11-28 at 15.28.04.jpg"  alt="">
-            </div>
+        </div>
+        
+    </div>
+      
 </body>
 </html>

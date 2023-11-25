@@ -1,40 +1,49 @@
-body {
+
+body{
+    margin: 0px;
+   
+}
+.container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    height: 100vh;
+  
+}
+.barralateral{
+    width: 25%;
+    border-bottom: 1px solid grey;
+ 
+
+}
+.contenido{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-left: 1px solid grey;
+    padding: 40px;
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: opx;
+    border-bottom: 1px solid gray;
 }
 
-ul {
-    background-color: aqua;
-} 
-.container {
-    border: 1px solid red; 
-    padding: 20px;
-}
-.chat {
-    border: 1px solid green;
-}
-h1{
-    align-items: center;
-}
-img {
-    align-content: space-around;
-    min-height: min-content;
-    border-radius: 100%;
-   flex: 1 1 auto;
-}
-.boton {
+.newchat{
     display: flex;
     justify-content: center;
-    padding: 5px;
-    
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid grey;
 }
-.butt {
-    padding: 30px 80px 30px 80px;
-    background-color: rgb(131, 131, 185);
-}
-
-.a {
+.contactos{
     display: flex;
-    justify-content: row;
-    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid grey;
 }
