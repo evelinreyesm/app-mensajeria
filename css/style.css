@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    background-color: aqua;
+} 
+.container {
+    border: 1px solid red; 
+    padding: 20px;
+}
+.chat {
+    border: 1px solid green;
+}
+h1{
+    align-items: center;
+}
+img {
+    align-content: space-around;
+    min-height: min-content;
+    border-radius: 100%;
+   flex: 1 1 auto;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+}
+.butt {
+    padding: 30px 80px 30px 80px;
+    background-color: rgb(131, 131, 185);
+}
+
+.a {
+    display: flex;
+    justify-content: row;
+    padding: 20px;
+}
