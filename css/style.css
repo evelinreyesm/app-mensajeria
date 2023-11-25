@@ -1,17 +1,17 @@
 
 body{
     margin: 0px;
-   
+  
 }
 .container{
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    min-height: 100vh;
   
 }
 .barralateral{
     width: 25%;
-    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
  
 
 }
@@ -38,12 +38,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid grey;
+}
+button{
+    padding: 17px 70px;
+    border: 1px solid lavender;
+    color: white;
 }
 .contactos{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-bottom: 1px solid grey;
+    
+}
+.colega{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:  1px solid grey;
 }
